@@ -1,95 +1,107 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>خبر فوری | جبارسیتی</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>خبر فوری | سفیر نیوز</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
-  body{
-    margin:0;
-    font-family: Vazirmatn, sans-serif;
-    background:#f5f6fa;
-    color:#222;
-  }
 
-  header{
-    background: linear-gradient(90deg, #d90429, #ef233c);
-    color:white;
-    padding:20px;
-    text-align:center;
-    box-shadow:0 4px 15px rgba(0,0,0,0.2);
-  }
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Vazirmatn', sans-serif;
+}
 
-  header h1{
-    margin:0;
-    font-size:22px;
-  }
+body{
+  background:#0d0d0d;
+  color:white;
+}
 
-  .container{
-    max-width:800px;
-    margin:20px auto;
-    padding:15px;
-  }
+header{
+  width:100%;
+  padding:25px 50px;
+  background:rgba(255,255,255,0.04);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid rgba(255,255,255,0.08);
+  position:sticky;
+  top:0;
+}
 
-  .card{
-    background:white;
-    padding:20px;
-    border-radius:12px;
-    box-shadow:0 5px 20px rgba(0,0,0,0.1);
-    animation: fadeIn 0.6s ease-in-out;
-  }
+header h1{
+  font-size:20px;
+}
 
-  .tag{
-    display:inline-block;
-    background:#ef233c;
-    color:white;
-    padding:4px 10px;
-    border-radius:6px;
-    font-size:12px;
-    margin-bottom:10px;
-  }
+.container{
+  max-width:900px;
+  margin:40px auto;
+  padding:20px;
+}
 
-  h2{
-    margin-top:10px;
-    font-size:20px;
-  }
+.card{
+  background:rgba(255,255,255,0.03);
+  border:1px solid rgba(255,255,255,0.06);
+  border-radius:25px;
+  padding:30px;
+  backdrop-filter:blur(12px);
+  box-shadow:0 0 30px rgba(0,0,0,0.3);
+}
 
-  p{
-    line-height:2;
-    font-size:15px;
-    margin:12px 0;
-  }
+.tag{
+  display:inline-block;
+  background:#ff1f1f;
+  padding:6px 14px;
+  border-radius:50px;
+  font-size:12px;
+  margin-bottom:15px;
+}
 
-  .quote{
-    background:#f1f1f1;
-    border-right:4px solid #ef233c;
-    padding:10px;
-    margin:15px 0;
-    border-radius:6px;
-  }
+h2{
+  font-size:26px;
+  margin-bottom:20px;
+}
 
-  .back{
-    display:inline-block;
-    margin-top:15px;
-    text-decoration:none;
-    background:#222;
-    color:white;
-    padding:8px 14px;
-    border-radius:8px;
-    transition:0.3s;
-  }
+.meta{
+  color:#aaa;
+  font-size:13px;
+  margin-bottom:25px;
+}
 
-  .back:hover{
-    background:#ef233c;
-  }
+p{
+  color:#ccc;
+  line-height:2;
+  font-size:15px;
+  margin-bottom:15px;
+}
 
-  @keyframes fadeIn{
-    from{opacity:0; transform:translateY(10px);}
-    to{opacity:1; transform:translateY(0);}
-  }
+.quote{
+  background:rgba(255,255,255,0.05);
+  border-right:4px solid #ff1f1f;
+  padding:15px;
+  margin:20px 0;
+  border-radius:10px;
+  color:#ddd;
+}
+
+.back{
+  display:inline-block;
+  margin-top:25px;
+  text-decoration:none;
+  background:#ff1f1f;
+  color:white;
+  padding:10px 18px;
+  border-radius:12px;
+  transition:.3s;
+}
+
+.back:hover{
+  transform:translateY(-3px);
+  background:#ff3b3b;
+}
+
 </style>
 
 </head>
@@ -97,7 +109,7 @@
 <body>
 
 <header>
-  <h1>📰 رسانه خبری سفیرنیوز</h1>
+  <h1>📰 سفیر نیوز | خبر فوری</h1>
 </header>
 
 <div class="container">
@@ -106,7 +118,9 @@
 
     <span class="tag">خبر فوری</span>
 
-    <h2>تحولات مهم در ساختار سیاسی جبارسیتی</h2>
+    <h2>تحولات سیاسی در جبارسیتی و کاهش سطح تنش‌ها</h2>
+
+    <div class="meta">زمان انتشار: 2026 | بخش: سیاسی</div>
 
     <p>
       در پی تشدید تنش‌های سیاسی و امنیتی در کشور «جبارسیتی»، گزارش‌ها از تحولات مهم در ساختار قدرت این کشور حکایت دارد.
@@ -129,7 +143,7 @@
     </p>
 
     <p>
-      فضای عمومی کشور همچنان تحت تأثیر این رویدادها قرار دارد و تحلیلگران نسبت به آینده سیاسی جبارسیتی دیدگاه‌های متفاوتی ارائه می‌دهند.
+      فضای عمومی کشور همچنان تحت تأثیر این رویدادها قرار دارد و تحلیل‌ها درباره آینده سیاسی جبارسیتی ادامه دارد.
     </p>
 
     <a class="back" href="index.html">⬅ بازگشت به صفحه اصلی</a>
