@@ -239,9 +239,21 @@
       <a href="#">اخبار فوری</a>
       <a href="#">تحلیل</a>
       <a href="#">ورزش</a>
-      <a href="#">موزیک</a>
+      <a href="#">سیاسی|جنگی</a>
       <a href="#">ارتباط</a>
     </nav>
+
+    <div style="display:flex; align-items:center; gap:10px;">
+
+    <input id="searchBox" type="text" placeholder="جستجوی خبر..."
+      style="padding:8px 12px; border-radius:10px; border:none; outline:none;">
+
+    <button onclick="searchNews()"
+      style="padding:8px 14px; border-radius:10px; border:none; background:#ff1f1f; color:white; cursor:pointer;">
+      جستجو
+    </button>
+
+  </div>
 
   </header>
 
@@ -346,6 +358,23 @@
     © 2026 Safir News — All Rights Reserved
   </footer>
 
+  <script>
+function searchNews(){
+  let input = document.getElementById("searchBox").value.toLowerCase();
+  let cards = document.querySelectorAll(".card");
+
+  cards.forEach(card => {
+    let text = card.innerText.toLowerCase();
+
+    if(text.includes(input)){
+      card.style.display = "block";
+    } else {
+      card.style.display = "none";
+    }
+  });
+}
+</script>
+  
 </body>
 </html>
 ```
