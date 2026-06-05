@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>بیانیه رسمی | سفیر نیوز</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+background:#0d0d0d;
+color:white;
+font-family:'Vazirmatn',sans-serif;
+margin:0;
+padding:0;
+}
+
+.container{
+max-width:900px;
+margin:50px auto;
+padding:25px;
+}
+
+.news{
+background:rgba(255,255,255,.03);
+border:1px solid rgba(255,255,255,.08);
+border-radius:25px;
+padding:35px;
+}
+
+.tag{
+display:inline-block;
+background:#ff1f1f;
+padding:6px 14px;
+border-radius:50px;
+font-size:12px;
+margin-bottom:15px;
+}
+
+h1{
+margin-bottom:15px;
+}
+
+.meta{
+color:#999;
+margin-bottom:25px;
+}
+
+p{
+line-height:2.2;
+color:#d0d0d0;
+margin-bottom:18px;
+}
+
+.quote{
+background:rgba(255,255,255,.05);
+border-right:4px solid #ff1f1f;
+padding:15px;
+border-radius:12px;
+margin:20px 0;
+}
+
+a{
+display:inline-block;
+margin-top:20px;
+background:#ff1f1f;
+color:white;
+text-decoration:none;
+padding:10px 18px;
+border-radius:12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="news">
+
+<span class="tag">بیانیه رسمی</span>
+
+<h1>انتشار بیانیه درباره آینده و توسعه کشور خیالی سفیرستان</h1>
+
+<div class="meta">
+منتشر شده توسط دفتر اطلاع‌رسانی | 2026
+</div>
+
+<p>
+در بیانیه‌ای که امروز منتشر شد، بر ضرورت حفظ آرامش، همبستگی اجتماعی و تلاش برای توسعه همه‌جانبه کشور تأکید شد.
+</p>
+
+<div class="quote">
+«پیشرفت پایدار تنها با همکاری، احترام متقابل و مشارکت عمومی امکان‌پذیر خواهد بود.»
+</div>
+
+<p>
+در ادامه این بیانیه، بر اهمیت سرمایه‌گذاری در آموزش، فناوری، فرهنگ و زیرساخت‌های عمومی تأکید شده و از نهادهای مختلف خواسته شده است برنامه‌های توسعه‌ای خود را با سرعت بیشتری دنبال کنند.
+</p>
+
+<p>
+همچنین در این بیانیه آمده است که توجه به نسل جوان و فراهم کردن فرصت‌های آموزشی و شغلی از مهم‌ترین اولویت‌های آینده خواهد بود.
+</p>
+
+<p>
+در پایان، از مردم خواسته شده است با حفظ روحیه همکاری و امید، در مسیر پیشرفت و آبادانی کشور نقش فعالی ایفا کنند.
+</p>
+
+<a href="index.html">بازگشت به صفحه اصلی</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
