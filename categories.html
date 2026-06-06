@@ -1,4 +1,230 @@
-<a href="Analysis.html" class="card">📰 تحلیل</a>
-<a href="sports.html" class="card">⚽ ورزشی</a>
-<a href="breaking.html" class="card">🚨 فوری</a>
-<a href="war-politics.html" class="card">⚔️ جنگی | سیاسی</a>
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>دسته‌بندی اخبار | سفیر نیوز</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Vazirmatn',sans-serif;
+}
+
+body{
+background:#0d0d0d;
+color:white;
+}
+
+header{
+padding:35px;
+text-align:center;
+background:rgba(255,255,255,.04);
+border-bottom:1px solid rgba(255,255,255,.08);
+backdrop-filter:blur(10px);
+}
+
+header h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+header p{
+color:#aaa;
+}
+
+.container{
+max-width:1000px;
+margin:60px auto;
+padding:20px;
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+
+background:rgba(255,255,255,.03);
+
+border:1px solid rgba(255,255,255,.06);
+
+border-radius:25px;
+
+padding:35px;
+
+text-decoration:none;
+
+color:white;
+
+transition:.35s;
+
+text-align:center;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px) scale(1.02);
+
+box-shadow:0 0 30px rgba(255,0,0,.25);
+
+border-color:#ff1f1f;
+
+}
+
+.icon{
+
+font-size:55px;
+
+margin-bottom:20px;
+
+}
+
+.card h2{
+
+margin-bottom:15px;
+
+font-size:25px;
+
+}
+
+.card p{
+
+color:#bcbcbc;
+
+line-height:2;
+
+font-size:15px;
+
+}
+
+.back{
+
+display:block;
+
+width:220px;
+
+margin:30px auto 60px;
+
+text-align:center;
+
+padding:14px;
+
+background:#ff1f1f;
+
+border-radius:15px;
+
+text-decoration:none;
+
+color:white;
+
+transition:.3s;
+
+}
+
+.back:hover{
+
+background:#ff3939;
+
+transform:translateY(-3px);
+
+}
+
+footer{
+
+text-align:center;
+
+padding:30px;
+
+border-top:1px solid rgba(255,255,255,.08);
+
+color:#777;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🗂 دسته‌بندی اخبار</h1>
+
+<p>
+دسته‌بندی مورد نظر خود را انتخاب کنید و آخرین اخبار را دنبال کنید.
+</p>
+
+</header>
+
+<div class="container">
+
+<a href="politics.html" class="card">
+
+<div class="icon">📰</div>
+
+<h2>اخبار سیاسی</h2>
+
+<p>
+جدیدترین اخبار سیاسی، بیانیه‌ها، تحلیل‌ها و تحولات داخلی و خارجی.
+</p>
+
+</a>
+
+<a href="sports.html" class="card">
+
+<div class="icon">⚽</div>
+
+<h2>اخبار ورزشی</h2>
+
+<p>
+آخرین رویدادهای فوتبال، مسابقات، نقل‌وانتقالات و اخبار ورزشی روز.
+</p>
+
+</a>
+
+<a href="breaking.html" class="card">
+
+<div class="icon">🚨</div>
+
+<h2>اخبار فوری</h2>
+
+<p>
+مهم‌ترین اخبار فوری و اتفاقات لحظه‌ای که به‌سرعت منتشر می‌شوند.
+</p>
+
+</a>
+
+<a href="war-politics.html" class="card">
+
+<div class="icon">⚔️</div>
+
+<h2>جنگی | سیاسی</h2>
+
+<p>
+گزارش‌ها و تحلیل‌های مرتبط با تحولات نظامی، امنیتی و سیاسی.
+</p>
+
+</a>
+
+</div>
+
+<a href="index.html" class="back">
+⬅ بازگشت به صفحه اصلی
+</a>
+
+<footer>
+
+© 2026 Safir News — All Rights Reserved
+
+</footer>
+
+</body>
+</html>
